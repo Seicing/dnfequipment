@@ -1,0 +1,257 @@
+﻿<head>
+    <!--By西瓜:添加JQ引用文件-->
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="1/vue.js"></script>
+    <!--By西瓜:添加table转canvas|文件保存|文件压缩|自定义打包下载js文件-->
+    <script type="text/javascript" src="1/html2canvas.js"></script>
+    <script type="text/javascript" src="1/FileSaver.js"></script>
+    <script type="text/javascript" src="1/jszip.min.js"></script>
+    <script type="text/javascript" src="1/ZipDownLoad.js"></script>
+    <link href="1/a.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body style="background-color:#222222">
+    <!--By西瓜:打包下载按钮-->
+    <button onclick="downall()">打包下载</button>
+    <div id="app">
+
+        <div v-for="(title,index) in aasb">
+            <!--By西瓜:修改table的id,id前缀不要修改,修改后打包方法需要修改,添加table的name,用于图片的名称导出-->
+            <table :id="'t_'+title.name" :name="title.name"
+                style="background-color:#000000 ;width:210px; float:left; border:1px solid #808080;margin: 5px;">
+                <tr>
+                    <td>
+                        <table style="background: url('1/colg.png')  ;width:200px;">
+                            <tr>
+                                <td colspan="2">
+                                    <table style="vertical-align:top;">
+                                        <tr>
+                                            <td style="width:28px">
+                                                <div style="position:relative;top:-5px;width:28px">
+                                                    <div style="position:absolute;left:0px;top:0px;z-index:2">
+                                                        <img :src="title.icon" />
+                                                    </div>
+                                                    <div style="position:absolute;left:0px;top:0px;z-index:3">
+                                                        <img :src="title.iconmark" />
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style=" line-height: 1.1;" v-html="title.equname"></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    &nbsp; <br>
+                                    <img src="2/hyeng.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="dnfye">最上级</span> (100%)
+                                </td>
+                                <td style="text-align: right">
+                                    <div v-html="title.equrank"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="text-align: right">
+                                    <span class="mainja">
+                                        <div v-html="title.leveling"></div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="text-align: right">
+                                    <div v-html="title.trader"></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td style="text-align: right">
+
+                                    <div v-html="title.kind" class="mainhoon"
+                                        style="line-height: 1.1;margin:-2px 0px -2px 0px;">
+
+
+                                        </span>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+
+                                    <div v-html="title.attvalue" class="mainganongi"></div>
+
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.value5" class="mainja"></div>
+                                    <div v-html="title.value6" class="mainjarahoon"></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.bufferya"></div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.mythya"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.linxuan"></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.flavor" class="mainganongi"></div>
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var imgAll = [];
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            aasb: []
+        },
+        created() {
+            fetch('main.json')
+                .then(response => response.json())
+                .then(json => {
+                    this.aasb = json
+                    for (var i = 0; i < json.length; i++) {
+                        //By西瓜:添加装备名称
+
+                        json[i].name = json[i]['name'];
+                        json[i].icon = '2/' + json[i]['name'] + '.png';
+                        json[i].iconmark = '1/' + json[i]['rank'] + '.png';
+                        json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['name'] + '</span>';
+                        json[i].equrank = '<span class="' + json[i]['rank'] + '">' + json[i]['rank'] + '</span>';
+
+
+                        if (json[i].trade != '无法交易') {
+                            json[i].trader = '<span class="bai">' + json[i]['trade'] + '</span>';
+                        } else {
+                            json[i].trader = '<span class="dnfred">' + json[i]['trade'] + '</span>';
+                        }
+
+                        if (json[i].value4 != '') {
+                            json[i].value4a = json[i]['value4'];
+
+                        }
+
+                        json[i].leveling = 'Lv' + json[i]['level'] + '以上可以使用';
+
+                        if (json[i].value1 != '') {
+                            json[i].attvalue = json[i]['value1'];
+                        }
+
+                        if (json[i].transable != '') {
+                            json[i].transable1 = ' <span class="dnfhui">可以转换材质<br>转换为板甲时，将附加圣骑士、小魔女专属属性</span><img src="2/hyeng.png">&nbsp;';
+                        }
+                        if (json[i].weapsy != '') {
+                            json[i].weapsy1 = '物理百分比技能：<br>' + json[i]['weapsy'] + '<br>';
+                        } else {
+                            json[i].weapsy1 = '';
+                        }
+                        if (json[i].weamga != '') {
+                            json[i].weamga1 = '魔法百分比技能：<br>' + json[i]['weamga'] + '<br>';
+                        } else {
+                            json[i].weamga1 = '';
+                        }
+                        if (json[i].value2 != '') {
+                            json[i].value22 = '<span class="dnfco">' + json[i]['value2'] + '</span><br>';
+                        }
+
+
+                        if (json[i].buffer != '') {
+                            json[i].bufferya = '<span class="geeee">-辅助职业专属属性</span><br><br><span class="mainjarahoon">' + json[i]['buffer'] + '</span><br><img src="2/hyeng.png">&nbsp;';
+                        }
+                        if (json[i].kaijo != '') {
+                            json[i].gaijo = '<img src=1/改造图标.png><span class="dnfco">' + json[i]['kaijo'] + '</span><br><br><img src="2/hyeng.png">&nbsp;<br>';
+                        }
+                        if (json[i].debuff != '') {
+                            json[i].dex = '<span class="dnfde">' + json[i]['debuff'] + '</span>';
+                        }
+
+                        if (json[i].myth1 != '') {
+                            json[i].mythya = '<span class="geeee"><神话专属属性></span><br>' + json[i]['myth1'] + '<img src="2/hyeng.png">&nbsp;';
+                        }
+
+                        if (json[i].linxuan1 != '') {
+                            json[i].linxuan = '<span class="geeee"><成长属性></span><br><span class="mainjarahoon">' + json[i]['linxuan1'] + '</span><img src="2/hyeng.png">&nbsp;';
+                        }
+                    }
+                })
+        }
+    });
+    //By西瓜:打包下载方法
+    downall = function () {
+        //FunLib.download_O([{ url: "http://imelon.coding.me/freya/Own/img/skills/%E6%9A%B4%E5%87%BB.png", name: "测试" }, { url: "http://imelon.coding.me/freya/Own/img/skills/%E6%9A%B4%E5%87%BB.png", name: "测试2" }])
+        var imgageData;
+        var elementALL = $("table[id *='t_']");
+        $.each(elementALL, function (i, element) {
+            var name = $(this).attr("name");
+            html2canvas(element, {
+                onrendered: function (canvas) {
+                    //$("#div_all").append(canvas);
+                    imgageData = canvas.toDataURL("");
+                    //var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+                    imgAll.push({
+                        url: imgageData,
+                        name: name
+                    });
+                    //$("#a_" + index).attr("download", "your_pic_name.png").attr("href", newData);
+                }
+            });
+        });
+        FunLib.download(imgAll);
+    }
+</script>
