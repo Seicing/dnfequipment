@@ -182,5 +182,28 @@
         "myth1": "",
         "flavor": "",
         "linxuan1": "<span class='mainhoon'>属性1</span><br>正义审判更变为召唤光束，向范围内的敌人发射正义之枪<br>- 正义之枪最大发射个数：10<br>- 正义之枪攻击力：光刃攻击力的1600%<br><span class='mainhoon'>属性2</span><br>基本攻击可以取消发动正义审判<br><span class='mainhoon'>属性3</span><br>装备时向队友发动荣誉祝福效果+8%(装备解除时荣誉祝福马上失效，buff强化登录时不适用)<br>荣誉祝福适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%<br><span class='mainhoon'>属性4</span><br>缓慢愈合选择队友范围+20%"
+    },
+    {
+        "name": "决战之扫把-小魔女",
+        "rank": "史诗",
+        "kind": "扫把",
+        "trade": "无法交易",
+        "level": "105",
+        "value1": "物理攻击力 1289<br>魔法攻击力 1416<br>独立攻击力 818<br>智力 85",
+        "value4": "",
+        "value5": "",
+        "value6": "BUFF量 +2339<br>攻击速度 +6%<br>移动速度 +3%<br>技能攻击力 +40%<br><br>Lv30buff技能Lv+3<br>Lv50主动技能Lv+4",
+        "buffer": "",
+        "useable": "",
+        "transable": "",
+        "kaijo": "",
+        "value2": "",
+        "weapsy": "",
+        "weamga": "",
+        "value3": "",
+        "debuff": "",
+        "myth1": "",
+        "flavor": "",
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>哇咔咔！不需要释放动作就可以使用<br><span class='mainhoon'>属性2</span><br>咆哮吧！疯疯熊技能的诅咒气息赋予爆发伤害攻击<br>- 爆发攻击是咆哮吧！疯疯熊诅咒气息魔法攻击力总和的50%<br><span class='mainhoon'>属性3</span><br>装备时向队友发动禁忌诅咒效果+8%(装备解除时禁忌诅咒马上失效，buff强化登录时不适用)<br>禁忌诅咒适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%<br><span class='mainhoon'>属性4</span><br>细心缝补选择队友范围+20%"
     }
 ]
