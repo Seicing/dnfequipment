@@ -158,6 +158,6 @@
         "debuff": "",
         "myth1": "",
         "flavor": "",
-        "linxuan1": "<span class='mainhoon'>属性1</span><br>超级棒棒糖每个生成的糖果人偶可以使超级棒棒糖技能冷却时间-3%<br><span class='mainhoon'>属性2</span><br>糖果人偶变成可以吸收的无法爆炸物件(最大15个)<br>- 超级棒棒糖使用时生成吸收数量一样多的糖果人偶<br>- 追加生成的糖果人偶不会即时吸收，不会算进超级棒棒糖最大的糖果人偶数量中<br><span class='mainhoon'>属性3</span><br>每个被超级棒棒糖击中的敌人生成的糖果人偶个数+2<br>糖果人偶攻击力-20%<br><span class='mainhoon'>属性4</span><br>超级棒棒糖最大糖果人偶生成个数+5"
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>超级棒棒糖每个生成的糖果人偶可以使超级棒棒糖技能冷却时间-3%<br><span class='mainhoon'>属性2</span><br>可以吸收没有爆炸的糖果人偶(最大15个)<br>- 超级棒棒糖使用时，追加生成和吸收数量相等的糖果人偶<br>- 追加生成的糖果人偶不会即时吸收，不会算进超级棒棒糖最大的糖果人偶数量中<br><span class='mainhoon'>属性3</span><br>每个被超级棒棒糖击中的敌人生成的糖果人偶个数+2<br>糖果人偶攻击力-20%<br><span class='mainhoon'>属性4</span><br>超级棒棒糖最大糖果人偶生成个数+5"
     }
 ]
