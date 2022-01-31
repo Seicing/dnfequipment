@@ -227,7 +227,7 @@
         "debuff": "",
         "myth1": "",
         "flavor": "",
-        "linxuan1": "<span class='mainhoon'>属性1</span><br>火焰精华更变为使用次数5次的堆栈技能<br>- 充能时间：8秒<br> <span class='mainhoon'>属性2</span><br>焚烧状态发动时充能时间-1秒<br><span class='mainhoon'>属性3</span><br>净化之焰使用时10%几率使得净化之焰冷却时间初期化<br><span class='mainhoon'>属性4</span><br>净化之焰爆发范围+30%"
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>火焰精华更变为使用次数5次的堆栈技能<br>- 充能时间：8秒<br> <span class='mainhoon'>属性2</span><br>每触发焚烧状态一次，火焰精华的剩余充能时间-1秒<br><span class='mainhoon'>属性3</span><br>净化之焰使用时10%几率使得净化之焰冷却时间初期化<br><span class='mainhoon'>属性4</span><br>净化之焰爆发范围+30%"
     },
     {
         "name": "决战之镰刀-复仇者",
@@ -458,5 +458,28 @@
         "myth1": "",
         "flavor": "",
         "linxuan1": "<span class='mainhoon'>属性1</span><br>G-1科罗纳状态下转换成G-2旋雷者或G-3捕食者时生成持续8秒的全息G-1科罗纳<br>- 全息G-1科罗纳攻击力：G-1科罗纳的50%<br><span class='mainhoon'>属性2</span><br>全息G-1科罗纳生成的状态下使用G-磁力弹会让全息G-1科罗纳代替发射<br><span class='mainhoon'>属性3</span><br>G-3捕食者攻击力+5%，激光捕抓增加<br><span class='mainhoon'>属性4</span><br>雷行者技能范围+10%"
+    },
+    {
+        "name": "决战之法杖-元素师",
+        "rank": "史诗",
+        "kind": "法杖",
+        "trade": "无法交易",
+        "level": "105",
+        "value1": "物理攻击力 +1222<br>魔法攻击力 +1544<br>独立攻击力 +818<br>智力 +85<br>冒险家名望 +1132",
+        "value4": "",
+        "value5": "魔法百分比技能<br> MP+10% 冷却时间+10%",
+        "value6": "攻击速度 -10%<br>技能攻击力 +40%",
+        "buffer": "",
+        "useable": "",
+        "transable": "",
+        "kaijo": "",
+        "value2": "",
+        "weapsy": "",
+        "weamga": "",
+        "value3": "",
+        "debuff": "",
+        "myth1": "",
+        "flavor": "",
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>[装备属性操作键]输入时生成持续60秒的可以保存技能的元素结晶<br>- 使用高级元素技能可以将技能保存在结晶中(最大1次)<br>- 输入[装备属性操作键]可以释放出元素结晶保有的技能<br>- 高级元素技能：杰克降临、极冰盛宴、天雷、湮灭黑洞<br>再次生成元素结晶的冷却时间是0.5秒<br><span class='mainhoon'>属性2</span><br>追加可储存技能<br>- 元素之幕、元素震荡、圣灵水晶<br><span class='mainhoon'>属性3</span><br>元素结晶保存的技能维持最大蓄力状态<br><span class='mainhoon'>属性4 - Lv21</span><br><span class='mainja'>伤害增加 </span><span class='bai'>757</span><br>魔法记忆技能的施放速度提升率额外增加15%"
     }
 ]
