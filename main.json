@@ -227,7 +227,7 @@
         "debuff": "",
         "myth1": "",
         "flavor": "",
-        "linxuan1": "<span class='mainhoon'>属性1</span><br>特定技能攻击时获得点穴层数<br>- 双龙流云灭：30层<br>- 无双突刺：20层<br>- 无畏波动枪：8层<br>- 双重刺击：2层<br>- 刺击：1层<br>夺命雷霆枪攻击速度 +10%<br> <span class='mainhoon'>属性2</span><br>每拥有1层点穴层数，夺命雷霆枪的冷却时间恢复速度+1%<br><span class='mainhoon'>属性3</span><br>夺命雷霆枪攻击时每层点穴层数都会适用于积累的创伤效果数量<br><span class='mainhoon'>属性4</span><br>保有的每层点穴层数可让攻击速度+1%"
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>特定技能攻击时获得点穴层数(最大30层)<br>- 双龙流云灭：30层<br>- 无双突刺：20层<br>- 无畏波动枪：8层<br>- 双重刺击：2层<br>- 刺击：1层<br>夺命雷霆枪攻击速度 +10%<br> <span class='mainhoon'>属性2</span><br>每拥有1层点穴层数，夺命雷霆枪的冷却时间恢复速度+1%<br><span class='mainhoon'>属性3</span><br>夺命雷霆枪攻击时每层点穴层数都会适用于积累的创伤效果数量<br><span class='mainhoon'>属性4</span><br>保有的每层点穴层数可让攻击速度+1%"
     },
     {
         "name": "决战之光枪-狩猎者",
@@ -274,6 +274,29 @@
         "myth1": "",
         "flavor": "",
         "linxuan1": "<span class='mainhoon'>属性1</span><br>每个被暗蚀的敌人每秒产生10%的黑雷气息，没有被暗蚀的敌人时每秒减少5%的黑雷气息<br>黑雷气息到达100%后生成持续5秒的强化黑雷buff<br><span class='mainhoon'>属性2</span><br>强化黑雷buff维持时间+10秒<br><span class='mainhoon'>属性3</span><br>黑雷强化buff状态下，使用坠蚀之雨会同时坠落黑雷之枪<br><span class='mainhoon'>属性4</span><br>黑雷强化buff状态下，使用坠蚀之雨时追加落下黑雷魔枪<br>黑雷魔枪攻击力：坠蚀之雨多段攻击力的800%  "
+    },
+    {
+        "name": "决战之法杖-元素爆破师",
+        "rank": "史诗",
+        "kind": "法杖",
+        "trade": "无法交易",
+        "level": "105",
+        "value1": "物理攻击力 1222<br>魔法攻击力 1544<br>独立攻击力 818<br>智力 85",
+        "value4": "",
+        "value5": "魔法百分比技能<br> MP+10% 冷却时间+5%",
+        "value6": "攻击速度 -10%<br>技能攻击力 +40%",
+        "buffer": "",
+        "useable": "",
+        "transable": "",
+        "kaijo": "",
+        "value2": "",
+        "weapsy": "",
+        "weamga": "",
+        "value3": "",
+        "debuff": "",
+        "myth1": "",
+        "flavor": "",
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>元素炮技能使用时生成自动追击前方最强敌人的深渊之球<br>- 没有敌人的场合下突进200px后爆炸<br><span class='mainhoon'>属性2</span><br>其他技能释放时可以取消使用元素炮<br><span class='mainhoon'>属性3</span><br>每层元素之力提供元素炮的攻击力增加量+10%，大小+5%<br><span class='mainhoon'>属性4</span><br>聚魔轰击、聚能魔炮使用时初期化元素炮的冷却时间"
     },
     {
         "name": "决战之魔杖-召唤师",
