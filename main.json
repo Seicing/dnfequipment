@@ -235,10 +235,10 @@
         "kind": "光枪",
         "trade": "无法交易",
         "level": "105",
-        "value1": "物理攻击力 1222<br>魔法攻击力 1287<br>独立攻击力 818<br>力量 85<br>智力 85",
+        "value1": "物理攻击力 1222<br>魔法攻击力 1480<br>独立攻击力 818<br>力量 85<br>智力 85",
         "value4": "",
-        "value5": "物理百分比技能<br> MP-5% 冷却时间-5%",
-        "value6": "攻击速度 +8%<br>物理暴击率 +2%<br>魔法暴击率 +2%<br>技能攻击力 +40%",
+        "value5": "魔法百分比技能<br> MP+15%",
+        "value6": "释放速度 +2%<br>魔法暴击率 +2%<br>技能攻击力 +40%",
         "buffer": "",
         "useable": "",
         "transable": "",
@@ -250,7 +250,7 @@
         "debuff": "",
         "myth1": "",
         "flavor": "",
-        "linxuan1": "<span class='mainhoon'>属性1</span><br>魔化状态下，恶魔能量在30以上时，每使用一次消耗恶魔能量的技能都会追加消耗40恶魔能量发动恶魔之爪<br>- 恶魔之爪攻击力是恶魔之力攻击力的1000%<br><span class='mainhoon'>属性2</span><br>魔化普通攻击和技能的恶魔能量恢复量+10%<br>恶魔之爪的攻击力比率追加增加500%<br><span class='mainhoon'>属性3</span><br>化魔恶魔能量恢复量+10%<br>恶魔之爪的攻击力比率追加增加500%<br><span class='mainhoon'>属性4</span><br>魔化攻击速度增加量+20%，移动速度增加量+10%"
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>使用猎杀枪技能累计狩猎层数，根据累计的层数来提升狩猎阶段<br>- 猎杀枪：3层<br>- 猎杀枪·掠食：10层<br>- 猎杀枪·穿心：20层<br>累计层数对应阶段<br>- 1-19层：1阶段<br>- 20-39层：2阶段<br>- 40层以上：3阶段<br>根据适用的阶段数提升光焰枪的攻击力<br>- 1阶段：10%攻击力<br> -2阶段：20%攻击力<br> -3阶段：30%攻击力 <span class='mainhoon'>属性2</span><br>狩猎阶段影响攻击力增加的技能追加地龙狩<br><span class='mainhoon'>属性3</span><br>猎杀枪再生成时间-30%<br><span class='mainhoon'>属性4</span><br>猎杀枪再发射冷却时间-30%"
     },
     {
         "name": "决战之暗矛-暗枪士",
@@ -258,10 +258,10 @@
         "kind": "暗矛",
         "trade": "无法交易",
         "level": "105",
-        "value1": "物理攻击力 1287<br>魔法攻击力 1222<br>独立攻击力 818<br>物理防御力 1221<br>魔法防御力 1221<br>智力 85<br>体力 101<br>精神 101",
+        "value1": "物理攻击力 1222<br>魔法攻击力 1351<br>独立攻击力 818<br>力量 +85<br>智力 128",
         "value4": "",
-        "value5": "魔法百分比技能<br> MP-5% 冷却时间-5%",
-        "value6": "BUFF量 +2339<br>释放速度 +2%<br>技能攻击力 +40%<br><br>Lv30buff技能Lv+3<br>Lv50主动技能Lv+4",
+        "value5": "物理百分比技能<br> MP-5% 冷却时间-5% <br>  魔法百分比技能<br> MP+5% 冷却时间-5%",
+        "value6": "攻击速度 +8%<br>释放速度 +5%<br>魔法暴击率 +2%<br>技能攻击力 +40%",
         "buffer": "",
         "useable": "",
         "transable": "",
@@ -273,7 +273,7 @@
         "debuff": "",
         "myth1": "",
         "flavor": "",
-        "linxuan1": "<span class='mainhoon'>属性1</span><br>圣洁之光触摸到敌人不会产生打击，而是移动300px距离后产生爆炸<br>- 圣洁之光攻击力+100%，爆炸范围+10%<br><span class='mainhoon'>属性2</span><br>圣洁之光攻击可以使得神光十字和忏悔重击的剩余冷却时间-2%<br><span class='mainhoon'>属性3</span><br>装备时向队友发动勇气祝福效果+8%(装备解除时勇气祝福马上失效，buff强化登录时不适用)<br>勇气祝福适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%<br><span class='mainhoon'>属性4</span><br>治愈祈祷选择队友范围+20%"
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>每个被暗蚀的敌人每秒产生10%的黑雷气息，没有被暗蚀的敌人时每秒减少5%的黑雷气息<br>黑雷气息到达100%后生成持续5秒的强化黑雷buff<br><span class='mainhoon'>属性2</span><br>强化黑雷buff维持时间+10秒<br><span class='mainhoon'>属性3</span><br>黑雷强化buff状态下，使用坠蚀之雨会同时坠落黑雷之枪<br><span class='mainhoon'>属性4</span><br>黑雷强化buff状态下，使用坠蚀之雨时追加落下黑雷魔枪<br>黑雷魔枪攻击力：坠蚀之雨多段攻击力的800%  "
     },
     {
         "name": "决战之念珠-巫女",
