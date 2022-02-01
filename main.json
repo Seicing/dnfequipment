@@ -299,7 +299,7 @@
         "linxuan1": "<span class='mainhoon'>属性1</span><br>元素炮技能使用时生成自动追击前方最强敌人的深渊之球<br>- 没有敌人的场合下突进200px后爆炸<br><span class='mainhoon'>属性2</span><br>其他技能释放时可以取消使用元素炮<br><span class='mainhoon'>属性3</span><br>每层元素之力提供元素炮的攻击力增加量+10%，大小+5%<br><span class='mainhoon'>属性4</span><br>聚魔轰击、聚能魔炮使用时初期化元素炮的冷却时间"
     },
     {
-        "name": "决战之魔杖-召唤师",
+        "name": "决战之魔杖-冰结师",
         "rank": "史诗",
         "kind": "魔杖",
         "trade": "无法交易",
@@ -319,10 +319,10 @@
         "debuff": "",
         "myth1": "",
         "flavor": "",
-        "linxuan1": "<span class='mainhoon'>属性1</span><br>精灵召唤 : 亡魂默克尔暗黑雾攻击力+20%，追加控制功能<br>精灵召唤 : 极光格雷林闪电攻击力+20%，追加聚集敌人功能<br><span class='mainhoon'>属性2</span><br>精灵召唤 : 冰影阿奎利斯冰导弹攻击力+20%，范围+15%<br>精灵召唤 : 火焰赫瑞克火焰剑攻击力+20%，追加聚集敌人功能<br><span class='mainhoon'>属性3</span><br>精灵召唤 : 精灵王伊伽贝拉的激光攻击更变为向地面发射大量激光，攻击力+20%<br><span class='mainhoon'>属性4</span><br>蚀月附灵技能追加操作使用时删除释放动作"
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>冰之技艺生成的冰枪向着所有被击中的敌人发射<br>冰之技艺的冰枪爆炸功能删除<br><span class='mainhoon'>属性2</span><br>冰之技艺冰枪被击中的敌人10%几率进入2秒冰冻状态<br><span class='mainhoon'>属性3</span><br>冰之技艺的冰枪攻击力变更率追加增加20%<br><span class='mainhoon'>属性4</span><br>冰之技艺冰枪生成速度+50%"
     },
     {
-        "name": "决战之矛-战斗法师",
+        "name": "决战之矛-血法师",
         "rank": "史诗",
         "kind": "矛",
         "trade": "无法交易",
@@ -342,6 +342,6 @@
         "debuff": "",
         "myth1": "",
         "flavor": "",
-        "linxuan1": "<span class='mainhoon'>属性1</span><br>50连击数以上时自动发动炫纹发射<br><span class='mainhoon'>属性2</span><br>每次发射炫纹数量+2<br><span class='mainhoon'>属性3</span><br>尼巫的战术最后一击、天击、龙牙、落花掌、圆舞棍每次使用时生成的炫纹数量+4，自动炫纹每次生成的炫纹个数+4<br><span class='mainhoon'>属性4</span><br>超大炫纹大小比率+20%<br>炫纹最大生成个数+1"
+        "linxuan1": "<span class='mainhoon'>属性1</span><br>狱血之噬释放速度+30%，冷却时间-10%<br><span class='mainhoon'>属性2</span><br>狱血之噬使用时获得2个血源之眼(最大5个)<br>地下城进入时获得1个血源之眼<br><span class='mainhoon'>属性3</span><br>血腥狩猎释放时消耗1个血源之眼强化为死亡狩猎<br>- 攻击力+50%<br>- 攻击500px范围内所有敌人<br>- 更变为1hit技能<br><span class='mainhoon'>属性4</span><br>血腥炼狱释放时消耗1个血源之眼强化为死亡炼狱<br>- 攻击力+50%<br>- 释放后可以移动"
     }
 ]
