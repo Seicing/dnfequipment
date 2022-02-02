@@ -396,16 +396,16 @@
         "value6": "BUFF量 +2339<br>攻击速度 +6%<br>移动速度 +3%<br>技能攻击力 +40%<br><br>Lv30buff技能Lv+3<br>Lv50主动技能Lv+4",
         "shujuj1": "759",
         "shujujlv1": "1",
-        "linxuan1": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>哇咔咔！不需要释放动作就可以使用",
+        "linxuan1": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>哇咔咔！不需要释放动作就可以使用",
         "shujuj2": "759",
         "shujujlv2": "1",
-        "linxuan2": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>咆哮吧！疯疯熊技能的诅咒气息更变为爆发喷射攻击<br>- 爆发攻击是咆哮吧！疯疯熊诅咒气息魔法攻击力总和的50%",
+        "linxuan2": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>咆哮吧！疯疯熊技能的诅咒气息更变为爆发喷射攻击<br>- 爆发攻击是咆哮吧！疯疯熊诅咒气息魔法攻击力总和的50%",
         "shujuj3": "759",
         "shujujlv3": "1",
-        "linxuan3": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>装备时向队友发动禁忌诅咒效果+8%(装备解除时禁忌诅咒马上失效，buff强化登录时不适用)<br>禁忌诅咒适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%",
+        "linxuan3": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>装备时向队友发动禁忌诅咒效果+8%(装备解除时禁忌诅咒马上失效，buff强化登录时不适用)<br>禁忌诅咒适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%",
         "shujuj4": "759",
         "shujujlv4": "1",
-        "linxuan4": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>细心缝补的缝补buff适用范围+20%"
+        "linxuan4": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>细心缝补的缝补buff适用范围+20%"
     },
     {
         "name": "决战之法杖 - 元素爆破师",
@@ -540,16 +540,16 @@
         "value6": "BUFF量 +2339<br>释放速度 +2%<br>技能攻击力 +40%<br><br>Lv30buff技能Lv+3<br>Lv50主动技能Lv+4",
         "shujuj1": "759",
         "shujujlv1": "1",
-        "linxuan1": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>正义审判更变为召唤光束，向范围内的敌人发射正义之枪<br>- 正义之枪最大发射个数：10<br>- 正义之枪攻击力：光刃攻击力的1600%",
+        "linxuan1": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>正义审判更变为召唤光束，向范围内的敌人发射正义之枪<br>- 正义之枪最大发射个数：10<br>- 正义之枪攻击力：光刃攻击力的1600%",
         "shujuj2": "759",
         "shujujlv2": "1",
-        "linxuan2": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>基本攻击可以取消发动正义审判",
+        "linxuan2": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>基本攻击可以取消发动正义审判",
         "shujuj3": "759",
         "shujujlv3": "1",
-        "linxuan3": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>装备时向队友发动荣誉祝福效果+8%(装备解除时荣誉祝福马上失效，buff强化登录时不适用)<br>荣誉祝福适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%",
+        "linxuan3": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>装备时向队友发动荣誉祝福效果+8%(装备解除时荣誉祝福马上失效，buff强化登录时不适用)<br>荣誉祝福适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%",
         "shujuj4": "759",
         "shujujlv4": "1",
-        "linxuan4": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>缓慢愈合选择队友范围+20%"
+        "linxuan4": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>缓慢愈合选择队友范围+20%"
     },
     {
         "name": "决战之图腾 - 蓝拳圣使",
@@ -636,16 +636,16 @@
         "value6": "BUFF量 +2339<br>释放速度 +2%<br>技能攻击力 +40%<br><br>Lv30buff技能Lv+3<br>Lv50主动技能Lv+4",
         "shujuj1": "759",
         "shujujlv1": "1",
-        "linxuan1": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>圣洁之光触摸到敌人不会产生打击，而是移动300px距离后产生爆炸<br>- 圣洁之光攻击力+100%，爆炸范围+10%",
+        "linxuan1": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>圣洁之光触摸到敌人不会产生打击，而是移动300px距离后产生爆炸<br>- 圣洁之光攻击力+100%，爆炸范围+10%",
         "shujuj2": "759",
         "shujujlv2": "1",
-        "linxuan2": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>圣洁之光攻击可以使得神光十字和忏悔重击的剩余冷却时间-2%",
+        "linxuan2": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>圣洁之光攻击可以使得神光十字和忏悔重击的剩余冷却时间-2%",
         "shujuj3": "759",
         "shujujlv3": "1",
-        "linxuan3": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>装备时向队友发动勇气祝福效果+8%(装备解除时勇气祝福马上失效，buff强化登录时不适用)<br>勇气祝福适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%",
+        "linxuan3": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>装备时向队友发动勇气祝福效果+8%(装备解除时勇气祝福马上失效，buff强化登录时不适用)<br>勇气祝福适用中的队友HP每秒减少1%，恢复药总计的HP恢复量-50%",
         "shujuj4": "759",
         "shujujlv4": "1",
-        "linxuan4": "<span class='mainja'>BUFF量</span><span class='bai'>46</span><br>治愈祈祷选择队友范围+20%"
+        "linxuan4": "<span class='mainja'>BUFF量 </span><span class='bai'>46</span><br>治愈祈祷选择队友范围+20%"
     },
     {
         "name": "决战之战斧 - 异端审判者",
