@@ -96,21 +96,6 @@
                             <tr>
                                 <td colspan="2" style="line-height: 1.1;">
 
-                                    <div v-html="title.myengmong" class="mainganongi"></div>
-
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td colspan="2">
-                                    <img src="2/hyeng.png">&nbsp;
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td colspan="2" style="line-height: 1.1;">
-
                                     <div v-html="title.attvalue" class="mainganongi"></div>
 
                                 </td>
@@ -122,6 +107,7 @@
                                     <img src="2/hyeng.png">&nbsp;
                                 </td>
                             </tr>
+
 
 
                             <tr>
@@ -196,6 +182,10 @@
                             json[i].trader = '<span class="dnfred">' + json[i]['trade'] + '</span>';
                         }
 
+                        if (json[i].value4 != '') {
+                            json[i].value4a = json[i]['value4'];
+
+                        }
 
                         json[i].leveling = 'Lv' + json[i]['level'] + '以上可以使用';
 
@@ -203,12 +193,8 @@
                             json[i].attvalue = json[i]['value1'];
                         }
 
-                        if (json[i].value4 != '') {
-                            json[i].myengmong = '<img src="2/meng.png">' + json[i]['value4'];
-                        }
-
                         if (json[i].transable != '') {
-                            json[i].transable1 = '<span class="dnfhui">可以转换材质<br>转换为板甲时，将附加圣骑士、小魔女专属属性</span><img src="2/hyeng.png">&nbsp;';
+                            json[i].transable1 = ' <span class="dnfhui">可以转换材质<br>转换为板甲时，将附加圣骑士、小魔女专属属性</span><img src="2/hyeng.png">&nbsp;';
                         }
                         if (json[i].weapsy != '') {
                             json[i].weapsy1 = '物理百分比技能：<br>' + json[i]['weapsy'] + '<br>';
@@ -240,30 +226,8 @@
                         }
 
                         if (json[i].linxuan1 != '') {
-                            json[i].linxuan = '<span class="geeee"><成长属性></span><br><span class="mainjarahoon">' +
-
-                                '<span class="mainhoon">属性1 - Lv1</span><br><span class="mainja">伤害增加 </span><span class="bai">' + json[i]['shujuj1'] +
-                                '</span><br>' + json[i]['linxuan1'] + '<br>' +
-
-                                '<span class="mainhoon">属性2 - Lv1</span><br><span class="mainja">伤害增加 </span><span class="bai">' + json[i]['shujuj2'] +
-                                '</span><br>' + json[i]['linxuan2'] + '<br>' +
-
-                                '<span class="mainhoon">属性3 - Lv1</span><br><span class="mainja">伤害增加 </span><span class="bai">' + json[i]['shujuj3'] +
-                                '</span><br>' + json[i]['linxuan3'] + '<br>' +
-
-                                '<span class="mainhoon">属性4 - Lv1</span><br><span class="mainja">伤害增加 </span><span class="bai">' + json[i]['shujuj4'] +
-                                '</span><br>' + json[i]['linxuan4'] + '<br>' +
-
-
-
-                                '</span><img src="2/hyeng.png">&nbsp;';
+                            json[i].linxuan = '<span class="geeee"><成长属性></span><br><span class="mainjarahoon">' + json[i]['linxuan1'] + '</span><img src="2/hyeng.png">&nbsp;';
                         }
-
-
-
-
-
-
                     }
                 })
         }
