@@ -186,9 +186,14 @@
                         json[i].name = json[i]['name'];
                         json[i].icon = '2/' + json[i]['name'] + '.png';
                         json[i].iconmark = '1/' + json[i]['rank'] + '.png';
-                        json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['name'] + '</span>';
                         json[i].equrank = '<span class="' + json[i]['rank'] + '">' + json[i]['rank'] + '</span>';
 
+
+                        if (json[i].iconname != '') {
+                            json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['iconname'] + '</span>';
+                        } else {
+                            json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['name'] + '</span>';
+                        }
 
                         if (json[i].trade != '无法交易') {
                             json[i].trader = '<span class="bai">' + json[i]['trade'] + '</span>';
