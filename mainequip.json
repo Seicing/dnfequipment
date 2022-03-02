@@ -164,7 +164,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "攻击速度+8%<br>施放速度+12%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "正义的骑士假面",
@@ -198,7 +199,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "物理暴击率+5%<br>魔法暴击率+5%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "停不下来的命运",
@@ -232,7 +234,8 @@
         "tatakae4": "51",
         "shujujlv4": "1",
         "linxuan4": "所有属性强化+15<br>所有属性抗性-10",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "天才技工的厚实保护靴",
@@ -334,7 +337,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "回避率+8%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "骤闪指环",
@@ -368,7 +372,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "攻击速度+8%<br>施放速度+12%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "蕴含风暴的能量",
@@ -436,7 +441,8 @@
         "tatakae4": "51",
         "shujujlv4": "1",
         "linxuan4": "所有属性强化+15<br>所有属性抗性-10",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "天才技工的保护面罩",
@@ -504,7 +510,8 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "技能MP消费量-7%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "屠龙者之甲",
@@ -538,7 +545,8 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "HP MAX+600",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "复读机",
@@ -605,7 +613,8 @@
         "tatakae4": "51",
         "shujujlv4": "1",
         "linxuan4": "所有属性强化+15<br>所有属性抗性-10",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "永不疲倦的旅行下装",
@@ -639,7 +648,8 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "物理防御力 +7000<br>魔法防御力 +7000​",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "虚拟实景眼镜",
@@ -673,7 +683,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "命中率+10%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "骑士的荣耀",
@@ -707,7 +718,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "每分钟的HP恢复量+460.2",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "执念未解的怨魂",
@@ -741,7 +753,8 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "HP MAX+600",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "伸缩型供给带",
@@ -841,7 +854,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "MP MAX+945",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "不断回旋的天眼",
@@ -875,7 +889,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "命中率+10%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "黑色足迹",
@@ -909,7 +924,8 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "所有属性强化+15<br>所有属性抗性-10",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "全息正十二面体",
@@ -943,7 +959,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "攻击速度+8%<br>施放速度+12%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "盛满星星的腰带",
@@ -1010,7 +1027,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "攻击速度+8%<br>施放速度+12%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "模糊不清的知识",
@@ -1044,7 +1062,8 @@
         "tatakae4": "49",
         "shujujlv4": "1",
         "linxuan4": "移动速度+8%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "踏遍大地之靴",
@@ -1078,7 +1097,8 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "HP MAX+600",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     },
     {
         "name": "电离化手镯",
@@ -1178,6 +1198,7 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "攻击速度+8%<br>施放速度+12%",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4528"
     }
 ]
