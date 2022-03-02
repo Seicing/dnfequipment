@@ -31,7 +31,8 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "MP最大值+945",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4379"
     },
     {
         "name": "高贵的神衣",
@@ -65,6 +66,7 @@
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "MP最大值+945",
-        "flavor": ""
+        "flavor": "",
+        "MAX": "4379"
     }
 ]
