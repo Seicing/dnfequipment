@@ -58,13 +58,19 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td></td>
+                                <td>
+                                    <span class="mainja">
+                                        <div v-html="title.chuurekz"></div>
+                                    </span>
+                                </td>
                                 <td style="text-align: right">
                                     <span class="mainja">
                                         <div v-html="title.leveling"></div>
                                     </span>
                                 </td>
                             </tr>
+
+
                             <tr>
                                 <td></td>
                                 <td style="text-align: right">
@@ -83,7 +89,20 @@
                                         </span>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <span class="mainja">
+                                        <div v-html="title.naikuz"></div>
+                                    </span>
 
+                                </td>
+                                <td style="text-align: right">
+                                    <span class="mainja">
+                                        <div v-html="title.goldz"></div>
+                                    </span>
+
+                                </td>
+                            </tr>
 
 
                             <tr>
@@ -176,7 +195,9 @@
                         json[i].iconname = json[i]['iconname'];
                         json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['name'] + '</span>';
 
-
+                        json[i].naikuz = '耐久度 ' + json[i]['naiku'];
+                        json[i].goldz = json[i]['gold'] + '金币';
+                        json[i].chuurekz = json[i]['chuurek'] + 'kg';
 
                         json[i].iconmark = '1/' + json[i]['rank'] + '.png';
                         json[i].equrank = '<span class="' + json[i]['rank'] + '">' + json[i]['rank'] + '</span>';
