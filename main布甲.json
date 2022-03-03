@@ -505,23 +505,23 @@
         "value6": "负重+3Kg<br>技能攻击力+12%",
         "transable": "1",
         "buffer": "",
-        "shujuj1": "待确认",
+        "shujuj1": "674",
         "tatakae1": "",
         "shujujlv1": "1",
         "linxuan1": "所有职业Lv1-30技能攻击力+12%<br>不消耗无色小晶块的技能更变为消耗2无色小晶块的技能",
-        "shujuj2": "待确认",
+        "shujuj2": "674",
         "tatakae2": "",
         "shujujlv2": "1",
         "linxuan2": "施放技能时，根据已消费的无色小晶块数量增加对应技能的攻击力<br>- 消耗1个以上：技能攻击力+2%<br>- 消耗15个以上：技能攻击力+10%<br>- 消耗30个以上：技能攻击力+20%",
-        "shujuj3": "待确认",
+        "shujuj3": "1186",
         "tatakae3": "",
         "shujujlv3": "1",
         "linxuan3": "技能MP消费量-7%",
-        "shujuj4": "待确认",
+        "shujuj4": "1186",
         "tatakae4": "",
         "shujujlv4": "1",
         "linxuan4": "物理暴击率+5%<br>魔法暴击率+5%",
         "flavor": "",
-        "MAX": "待确认"
+        "MAX": "3720"
     }
 ]
