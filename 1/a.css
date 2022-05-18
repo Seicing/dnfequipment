@@ -17,7 +17,7 @@
 .神话 {
     font-family: 宋体;
     background-image: -webkit-linear-gradient(bottom, #F8C63D, #CC66E7);
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -122,6 +122,10 @@
 
 .mainjarahoon {
     color: #B3A987
+}
+
+.mainjarahoon2 {
+    color: #C1A237
 }
 
 .mainganongi {
