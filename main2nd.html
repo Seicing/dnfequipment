@@ -195,7 +195,14 @@
                         json[i].iconname = json[i]['iconname'];
                         json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['name'] + '</span>';
 
-                        json[i].naikuz = '耐久度 ' + json[i]['naiku'];
+
+                        if (json[i].naiku != '') {
+                            json[i].naikuz = '耐久度 ' + json[i]['naiku'];
+                        } else {
+                            json[i].naikuz = ' ';
+                        }
+
+
                         json[i].goldz = json[i]['gold'] + '金币';
                         json[i].chuurekz = json[i]['chuurek'] + 'kg';
 
@@ -292,20 +299,20 @@
 
                                 json[i].linxuan = '<span class="geeee"><成长属性></span><br><span class="mainja" style="margin-left:10px">成长属性总攻击强化 ' + sb5 + ' </span> <br><span class="mainja" style="margin-left:10px">成长属性总BUFF量 ' + dsb5 + ' </span>                 <br><br><span class="mainjarahoon">' +
 
-                                    '<span class="mainhoon">属性1 - Lv' + json[i]['shujujlv1'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj1'] +
-                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="bai">' + json[i]['tatakae1'] +
+                                    '<span class="mainhoon">属性1 - Lv' + json[i]['shujujlv1'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj1'] +
+                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="namaste">' + json[i]['tatakae1'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan1'] + '</div>' +
 
-                                    '<span class="mainhoon">属性2 - Lv' + json[i]['shujujlv2'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj2'] +
-                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="bai">' + json[i]['tatakae2'] +
+                                    '<span class="mainhoon">属性2 - Lv' + json[i]['shujujlv2'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj2'] +
+                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="namaste">' + json[i]['tatakae2'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan2'] + '</div>' +
 
-                                    '<span class="mainhoon">属性3 - Lv' + json[i]['shujujlv3'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj3'] +
-                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="bai">' + json[i]['tatakae3'] +
+                                    '<span class="mainhoon">属性3 - Lv' + json[i]['shujujlv3'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj3'] +
+                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="namaste">' + json[i]['tatakae3'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan3'] + '</div>' +
 
-                                    '<span class="mainhoon">属性4 - Lv' + json[i]['shujujlv4'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj4'] +
-                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="bai">' + json[i]['tatakae4'] +
+                                    '<span class="mainhoon">属性4 - Lv' + json[i]['shujujlv4'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj4'] +
+                                    '</span><br>' + '<span class="mainja" style="margin-left:10px">BUFF量 </span><span class="namaste">' + json[i]['tatakae4'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan4'] + '</div>' +
 
 
@@ -324,16 +331,16 @@
 
                                 json[i].linxuan = '<span class="geeee"><成长属性></span><br><span class="mainja" style="margin-left:10px">成长属性总攻击强化 ' + sb5 + ' </span><br><br><span class="mainjarahoon">' +
 
-                                    '<span class="mainhoon">属性1 - Lv' + json[i]['shujujlv1'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj1'] +
+                                    '<span class="mainhoon">属性1 - Lv' + json[i]['shujujlv1'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj1'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan1'] + '</div>' +
 
-                                    '<span class="mainhoon">属性2 - Lv' + json[i]['shujujlv2'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj2'] +
+                                    '<span class="mainhoon">属性2 - Lv' + json[i]['shujujlv2'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj2'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan2'] + '</div>' +
 
-                                    '<span class="mainhoon">属性3 - Lv' + json[i]['shujujlv3'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj3'] +
+                                    '<span class="mainhoon">属性3 - Lv' + json[i]['shujujlv3'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj3'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan3'] + '</div>' +
 
-                                    '<span class="mainhoon">属性4 - Lv' + json[i]['shujujlv4'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="bai">' + json[i]['shujuj4'] +
+                                    '<span class="mainhoon">属性4 - Lv' + json[i]['shujujlv4'] + '</span><br><span class="mainja" style="margin-left:10px">攻击强化 </span><span class="namaste">' + json[i]['shujuj4'] +
                                     '</span><br><div style="margin-left:10px">' + json[i]['linxuan4'] + '</div>' +
                                     '</span><img src="2/hyeng.png">&nbsp;';
                             }
