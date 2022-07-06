@@ -91,7 +91,9 @@
                             </tr>
                             <tr>
                                 <td>
-
+                                    <span class="mainja">
+                                        <div v-html="title.naikuz"></div>
+                                    </span>
 
                                 </td>
                                 <td style="text-align: right">
@@ -180,7 +182,13 @@
                         json[i].iconname = json[i]['iconname'];
                         json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['name'] + '</span>';
 
-                        json[i].naikuz = '耐久度 ' + json[i]['naiku'];
+                        if (json[i].naiku != '') {
+                            json[i].naikuz = '耐久度 ' + json[i]['naiku'];
+                        } else {
+                            json[i].naikuz = ' ';
+                        }
+
+
                         json[i].goldz = json[i]['gold'] + '金币';
                         json[i].chuurekz = json[i]['chuurek'] + 'kg';
 
@@ -207,11 +215,41 @@
 
 
 
-                        if (json[i].transable != '') {
-                            json[i].attvalue = json[i]['value1'] + '<br><img src="2/hyeng2.png"><br>可以转换材质<br>转换为板甲时，将附加圣骑士、小魔女专属属性';
+
+                        if (json[i].mukfang != '') {
+                            var mukfang1 = '物理防御力 ' + json[i]['mukfang'] + '<br>';
                         } else {
-                            json[i].attvalue = json[i]['value1'];
+                            var mukfang1 = '';
                         }
+                        if (json[i].mafang != '') {
+                            var mafang1 = '魔法防御力 ' + json[i]['mafang'] + '<br>';
+                        } else {
+                            var mafang1 = '';
+                        }
+                        if (json[i].reklyang != '') {
+                            var reklyang1 = '力量 ' + json[i]['reklyang'] + '<br>';
+                        } else {
+                            var reklyang1 = '';
+                        }
+                        if (json[i].zirek != '') {
+                            var zirek1 = '智力 ' + json[i]['zirek'] + '<br>';
+                        } else {
+                            var zirek1 = '';
+                        }
+                        if (json[i].teairek != '') {
+                            var teairek1 = '体力 ' + json[i]['teairek'] + '<br>';
+                        } else {
+                            var teairek1 = '';
+                        }
+                        if (json[i].zyengsaen != '') {
+                            var zyengsaen1 = '精神 ' + json[i]['zyengsaen'] + '<br>';
+                        } else {
+                            var zyengsaen1 = '';
+                        }
+                        json[i].attvalue = mukfang1 + mafang1 + reklyang1 + zirek1 + teairek1 + zyengsaen1
+
+
+
 
                         if (json[i].buffer != '') {
                             json[i].value6z = json[i]['value6'] + '<br><img src="2/hyeng2.png"><br><span class="geeee">-辅助职业专属属性</span><br><br><span class="mainjarahoon">' + json[i]['buffer'] + '</span>';
