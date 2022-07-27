@@ -227,8 +227,21 @@
                         json[i].leveling = 'Lv' + json[i]['level'] + '以上可以使用';
 
 
-
-
+                        if (json[i].mukgung != '') {
+                            var mukgung1 = '物理攻击力 ' + json[i]['mukgung'] + '<br>';
+                        } else {
+                            var mukgung1 = '';
+                        }
+                        if (json[i].magung != '') {
+                            var magung1 = '魔法攻击力 ' + json[i]['magung'] + '<br>';
+                        } else {
+                            var magung1 = '';
+                        }
+                        if (json[i].doglag != '') {
+                            var doglag1 = '独立攻击力 ' + json[i]['doglag'] + '<br>';
+                        } else {
+                            var doglag1 = '';
+                        }
                         if (json[i].mukfang != '') {
                             var mukfang1 = '物理防御力 ' + json[i]['mukfang'] + '<br>';
                         } else {
@@ -259,7 +272,7 @@
                         } else {
                             var zyengsaen1 = '';
                         }
-                        json[i].attvalue = mukfang1 + mafang1 + reklyang1 + zirek1 + teairek1 + zyengsaen1
+                        json[i].attvalue = mukfang1 + mafang1 + mukgung1 + magung1 + doglag1 + reklyang1 + zirek1 + teairek1 + zyengsaen1
 
 
                         if (json[i].buffer != '') {
