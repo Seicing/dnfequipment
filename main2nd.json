@@ -419,7 +419,7 @@
         "value5": "",
         "value6": "BUFF量 +1875<br>技能攻击力 +12%<br>该属性Lv之和超过240时，增加1%的技能攻击力<br>- 该属性之和每增加Lv40时，额外增加1%的技能攻击力<br>- 穿戴Lv100以下装备时不适用",
         "transable": "",
-        "buffer": "Lv30buff技能Lv+1<br>Lv50主动技能Lv+1",
+        "buffer": "Lv30buff技能Lv+2<br>Lv50主动技能Lv+2",
         "shujuj1": "1347",
         "tatakae1": "456",
         "shujujlv1": "1",
@@ -529,7 +529,7 @@
     },
     {
         "name": "狂暴战意光剑",
-        "iconname": "狂暴之战意光剑",
+        "iconname": "狂暴战意光剑",
         "rank": "史诗",
         "kind": "光剑",
         "trade": "无法交易",
