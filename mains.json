@@ -98,5 +98,30 @@
         "shujujlv4": "",
         "linxuan4": "",
         "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
+    },
+    {
+        "name": "演出技巧",
+        "iconname": "神器护身符2",
+        "rank": "神器",
+        "kind": "护石<span class='mainja'>(吟游诗人)</span>",
+        "trade": "无法交易",
+        "level": "100",
+        "value1": "<span class='mainjarahoon'>[夺目光景]<br>技能使用时马上拔出仙弦弓<br>[街头公演]、[吟游诗人之声]使用时可以释放，这种场合下生成的蝴蝶群会以角色为中心散开<br>- 蝴蝶群散开多段攻击次数：4次<br>- 蝴蝶群多段攻击力：原多段攻击力的225%<br>攻击力+9%<br><br>[随心音律]<br>保护膜HP+50%<br>保护膜持续时间+1秒<br><br><span class='mainjarahoon2'>-护石附加效果</span><br><br>[夺目光景]<br>冷却时间-10%<br>攻击力+13%<br><br>[可爱节奏]<br>力量/智力增加量+8%</span>",
+        "value4": "冒险家名望 185",
+        "value5": "",
+        "value6": "",
+        "shujuj1": "",
+        "shujujlv1": "",
+        "linxuan1": "",
+        "shujuj2": "",
+        "shujujlv2": "",
+        "linxuan2": "",
+        "shujuj3": "",
+        "shujujlv3": "",
+        "linxuan3": "",
+        "shujuj4": "",
+        "shujujlv4": "",
+        "linxuan4": "",
+        "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
     }
 ]
