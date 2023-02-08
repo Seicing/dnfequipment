@@ -73,5 +73,30 @@
         "shujujlv4": "",
         "linxuan4": "",
         "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
+    },
+    {
+        "name": "活力节拍",
+        "iconname": "神器护身符2",
+        "rank": "神器",
+        "kind": "护石<span class='mainja'>(吟游诗人)</span>",
+        "trade": "无法交易",
+        "level": "100",
+        "value1": "<span class='mainjarahoon'>[放慢节拍]<br>可以指定增幅攻击的索敌位置<br>增幅攻击爆发范围内队友的HP/MP恢复10%<br>攻击力+16%<br><br>[快乐气氛]<br>攻击/移动/释放速度上升量+5%<br>演奏音乐的瞬间[放慢节拍]的剩余冷却时间-10%<br>- 成功演奏随机乐谱时追加减少10%的冷却时间<br><br><span class='mainjarahoon2'>-护石附加效果</span><br><br>[放慢节拍]<br>冲击波打击命中的敌人眩晕3秒<br>冲击波、爆发范围+10%<br>攻击力+21%<br><br>[可爱节奏]<br>力量/智力增加量+4%</span>",
+        "value4": "冒险家名望 185",
+        "value5": "",
+        "value6": "",
+        "shujuj1": "",
+        "shujujlv1": "",
+        "linxuan1": "",
+        "shujuj2": "",
+        "shujujlv2": "",
+        "linxuan2": "",
+        "shujuj3": "",
+        "shujujlv3": "",
+        "linxuan3": "",
+        "shujuj4": "",
+        "shujujlv4": "",
+        "linxuan4": "",
+        "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
     }
 ]
