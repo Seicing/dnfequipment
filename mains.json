@@ -48,5 +48,30 @@
         "shujujlv4": "",
         "linxuan4": "",
         "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
+    },
+    {
+        "name": "最后的舞台",
+        "iconname": "神器护身符2",
+        "rank": "神器",
+        "kind": "护石<span class='mainja'>(吟游诗人)</span>",
+        "trade": "无法交易",
+        "level": "100",
+        "value1": "<span class='mainjarahoon'>[吟游诗人之声]<br>技能持续时无敌<br>伴随着第一次冲击，生成1次增幅波动对范围内敌人造成打击<br>- 增幅波动攻击力是开幕魔法攻击力的53%<br><br>[闪亮舞台]<br>满足以下状况时，减少1秒目前的冷却时间(最大25秒)<br>- 消耗神髓力时<br>- [夜与梦]安可恢复效果适用时<br>- [甜蜜流畅调]安可buff效果适用时<br>- [感官刺激]属性伤害量增加效果适用时(冷却时间5秒)<br><br><span class='mainjarahoon2'>-护石附加效果</span><br><br>[吟游诗人之声]<br>冷却时间 -10%<br>增幅波动攻击力变化率+46%<br><br>[可爱节奏]<br>力量/智力增加量+4%</span>",
+        "value4": "冒险家名望 185",
+        "value5": "",
+        "value6": "",
+        "shujuj1": "",
+        "shujujlv1": "",
+        "linxuan1": "",
+        "shujuj2": "",
+        "shujujlv2": "",
+        "linxuan2": "",
+        "shujuj3": "",
+        "shujujlv3": "",
+        "linxuan3": "",
+        "shujuj4": "",
+        "shujujlv4": "",
+        "linxuan4": "",
+        "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
     }
 ]
