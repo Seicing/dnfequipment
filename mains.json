@@ -23,5 +23,30 @@
         "shujujlv4": "",
         "linxuan4": "",
         "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
+    },
+    {
+        "name": "极急板乐段",
+        "iconname": "神器护身符2",
+        "rank": "神器",
+        "kind": "护石<span class='mainja'>(吟游诗人)</span>",
+        "trade": "无法交易",
+        "level": "100",
+        "value1": "<span class='mainjarahoon'>[音量增强]<br>更变为充能技能<br>- 多段攻击力-44%<br>- 光球速度+10%<br>- 蝴蝶群爆发范围+15%<br>- 每10秒充能一次(最大2次充能)<br><br>[甜蜜流畅调]<br>从音乐中获得源源不断的活力<br>- 在演奏开始的同时，范围内的队友立即恢复25%的HP<br><br><span class='mainjarahoon2'>-护石附加效果</span><br><br>[音量增强]<br>多段攻击力+11%<br>- 蝴蝶群爆发范围+10%<br><br>[可爱节奏]<br>力量/智力增加量+6%</span>",
+        "value4": "冒险家名望 185",
+        "value5": "",
+        "value6": "",
+        "shujuj1": "",
+        "shujujlv1": "",
+        "linxuan1": "",
+        "shujuj2": "",
+        "shujujlv2": "",
+        "linxuan2": "",
+        "shujuj3": "",
+        "shujujlv3": "",
+        "linxuan3": "",
+        "shujuj4": "",
+        "shujujlv4": "",
+        "linxuan4": "",
+        "flavor": "支部座堂教区民众们流过的鲜血是崇高的牺牲。"
     }
 ]
