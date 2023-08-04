@@ -600,19 +600,6 @@
         "tatakae1": "1938",
         "shujujlv1": "1",
         "linxuan1": "[↑↓+装备指令输入键]输入时，消耗50点反击值适用以下效果，持续10秒。(冷却时间20秒)<br>- 领主怪物攻击时累积伤害(最大叠加10次)<br>- 时间结束或再次输入指令键时一次性爆发累积的伤害<br>- 累积伤害 +10%<br><br>累积伤害时攻击速度 +50%，施放速度 +75%<br>移动速度 +8%<br>命中率 +10%",
-        "shujuj2": "",
-        "tatakae2": "",
-        "shujujlv2": "",
-        "linxuan2": "",
-        "shujuj3": "",
-        "tatakae3": "",
-        "shujujlv3": "",
-        "linxuan3": "",
-        "shujuj4": "",
-        "tatakae4": "",
-        "shujujlv4": "",
-        "linxuan4": "",
-        "flavor": "",
-        "MAX": ""
+        "flavor": ""
     }
 ]
