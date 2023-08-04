@@ -717,12 +717,12 @@
         "value1": "",
         "value4": "冒险家名望 2845",
         "value5": "",
-        "value6": "攻击强化 +2048<br>增益量 +1202<br>移动速度 +4%<br>技能攻击力 +29%<br>属性等级成长技能攻击力0.0%增加(可通过百科词典进行确认)",
+        "value6": "攻击强化 +2048<br>增益量 +1202<br>移动速度 +4%<br>技能攻击力 +29%<br><span style='color: grey'>属性等级成长技能攻击力0.0%增加(可通过百科词典进行确认)</span>",
         "transable": "",
         "buffer": "Lv30增益技能Lv+1<br>Lv50主动技能Lv+1",
-        "shujuj1": "<span color='pink'>15839</span>",
-        "tatakae1": "<span color='pink'>5645</span>",
-        "shujujlv1": "<span color='pink'>1 (EXP 0.00%)</span>",
+        "shujuj1": "<span style='color: pink'>15839</span>",
+        "tatakae1": "<span style='color: pink'>5645</span>",
+        "shujujlv1": "<span style='color: pink'>1 (EXP 0.00%)</span>",
         "linxuan1": "攻击普通怪物时，冰冻500px范围内的敌人，效果持续5秒(冷却时间1秒)<br>自身赋予敌人的灼烧状态持续时间 +4秒<br>穿着[永眠前的准备]时，适用以下效果<br>- 灼伤伤害结算冷却时间删除<br><br>对冰冻状态免疫的敌人附加冰冻状态时，适用以下效果，效果持续30秒(最大叠加1次)<br>- 技能攻击力 +5%<br>攻击冰冻状态的敌人时，适用1/3数值的技能攻击力增加效果<br><br>跳跃力 +20<br>跳跃时移动速度 +30%<br><br>攻击冰冻状态敌人时技能攻击力 +15%，效果持续30秒(最大叠加1次)",
         "flavor": ""
     }
