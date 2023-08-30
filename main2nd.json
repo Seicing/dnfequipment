@@ -182,7 +182,7 @@
         "shujuj1": "<s>5928</s> → <span style='color: red'>7112</span>",
         "tatakae1": "",
         "shujujlv1": "1",
-        "linxuan1": " 攻击异常状态敌人时，技能攻击力 +10%，效果持续20秒(最大叠加1次)<br><br>攻击时，<span style='color: red'><s>随机</s>/span>赋予敌人中毒/出血/灼烧/感电状态<span style='color: red'><s>中的一种</s>/span>(冷却时间<span style='color: red'>3</span>秒)<br><br>所有异常抗性 +20%<br>自身处于异常状态时， 每3秒回复1%生命值和魔法值",
+        "linxuan1": " 攻击异常状态敌人时，技能攻击力 +10%，效果持续20秒(最大叠加1次)<br><br>攻击时，<span style='color: red'><s>随机</s></span>赋予敌人中毒/出血/灼烧/感电状态<span style='color: red'><s>中的一种</s></span>(冷却时间<span style='color: red'>3</span>秒)<br><br>所有异常抗性 +20%<br>自身处于异常状态时， 每3秒回复1%生命值和魔法值",
         "flavor": "<span class='史诗'>更多神界更新情报尽在COLG</span>"
     },
     {
