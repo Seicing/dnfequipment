@@ -151,7 +151,7 @@
         "shujuj1": "<s>4744</s> → <span style='color: red'>5928</span>",
         "tatakae1": "",
         "shujujlv1": "1",
-        "linxuan1": "<s><span style='color: red'>冷却时间20秒以上36秒以下的技能冷却时间恢复速度 +30%(觉醒技除外)<br>冷却时间36秒以上的技能冷却时间恢复速度 +50%(觉醒技除外)</span></s><br>技能冷却时间恢复速度 +40%(觉醒技除外)<br><br>对敌人施加5次冰冻状态时，发动效果，持续30秒<br>- 攻击冰冻状态的敌人时发动1/3效果的技能攻击力增加效果<br>- 为对象追加冰冻弱点异常属性</span><br><br>攻击时，<span style='color: red'><s>有15%几率</s></span>附加冰冻状态，效果持续5秒(冷却时间<span style='color: red'>3</span>秒)<br>冰冻抗性 +40%<br>冰属性抗性 +15",
+        "linxuan1": "<span style='color: red'><s>冷却时间20秒以上36秒以下的技能冷却时间恢复速度 +30%(觉醒技除外)<br>冷却时间36秒以上的技能冷却时间恢复速度 +50%(觉醒技除外)</s></span><br>技能冷却时间恢复速度 +40%(觉醒技除外)<br><br>对敌人施加5次冰冻状态时，发动效果，持续30秒<br>- 攻击冰冻状态的敌人时发动1/3效果的技能攻击力增加效果<br>- 为对象追加冰冻弱点异常属性 <br><br>攻击时，<span style='color: red'><s>有15%几率</s></span>附加冰冻状态，效果持续5秒(冷却时间<span style='color: red'>3</span>秒)<br>冰冻抗性 +40%<br>冰属性抗性 +15",
         "flavor": "<span class='史诗'>更多神界更新情报尽在COLG</span>"
     },
     {
@@ -182,7 +182,7 @@
         "shujuj1": "<s>5928</s> → <span style='color: red'>7112</span>",
         "tatakae1": "",
         "shujujlv1": "1",
-        "linxuan1": "<s>攻击异常状态敌人时，技能攻击力 +10%，效果持续20秒(最大叠加1次)<br><br>攻击时，<span style='color: red'><s>随机</s>/span>赋予敌人中毒/出血/灼烧/感电状态<span style='color: red'><s>中的一种</s>/span>(冷却时间<span style='color: red'>3/span>秒)<br><br>所有异常抗性 +20%<br>自身处于异常状态时， 每3秒回复1%生命值和魔法值",
+        "linxuan1": " 攻击异常状态敌人时，技能攻击力 +10%，效果持续20秒(最大叠加1次)<br><br>攻击时，<span style='color: red'><s>随机</s>/span>赋予敌人中毒/出血/灼烧/感电状态<span style='color: red'><s>中的一种</s>/span>(冷却时间<span style='color: red'>3</span>秒)<br><br>所有异常抗性 +20%<br>自身处于异常状态时， 每3秒回复1%生命值和魔法值",
         "flavor": "<span class='史诗'>更多神界更新情报尽在COLG</span>"
     },
     {
