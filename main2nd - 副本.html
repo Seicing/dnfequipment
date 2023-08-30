@@ -1,0 +1,397 @@
+﻿<head>
+    <!--By西瓜:添加JQ引用文件-->
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="1/vue.js"></script>
+    <!--By西瓜:添加table转canvas|文件保存|文件压缩|自定义打包下载js文件-->
+    <script type="text/javascript" src="1/html2canvas.js"></script>
+    <script type="text/javascript" src="1/FileSaver.js"></script>
+    <script type="text/javascript" src="1/jszip.min.js"></script>
+    <script type="text/javascript" src="1/ZipDownLoad.js"></script>
+    <link href="1/a.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body style="background-color:#222222">
+    <!--By西瓜:打包下载按钮-->
+    <button onclick="downall()">打包下载</button>
+    <div id="app">
+
+        <div v-for="(title,index) in aasb">
+            <!--By西瓜:修改table的id,id前缀不要修改,修改后打包方法需要修改,添加table的name,用于图片的名称导出-->
+            <table :id="'t_'+title.name" :name="title.name"
+                style="background-color:#000000 ;width:210px; float:left; border:1px solid #808080;margin: 5px;">
+                <tr>
+                    <td>
+                        <table style="background: url('1/colg.png')  ;width:200px;">
+                            <tr>
+                                <td colspan="2">
+                                    <table style="vertical-align:top;">
+                                        <tr>
+                                            <td style="width:28px">
+                                                <div style="position:relative;top:-13px;width:28px">
+                                                    <div style="position:absolute;left:0px;top:0px;z-index:2">
+                                                        <img :src="title.icon" />
+                                                    </div>
+                                                    <div style="position:absolute;left:0px;top:0px;z-index:3">
+                                                        <img :src="title.iconmark" />
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style=" line-height: 1.1;" v-html="title.equname"></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="dnfye">最上级</span>(100%)
+                                </td>
+                                <td style="text-align: right">
+                                    <div v-html="title.equrank"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="mainja">
+                                        <div v-html="title.chuurekz"></div>
+                                    </span>
+                                </td>
+                                <td style="text-align: right">
+                                    <span class="mainja">
+                                        <div v-html="title.leveling"></div>
+                                    </span>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td></td>
+                                <td style="text-align: right">
+                                    <div v-html="title.trader"></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td style="text-align: right">
+
+                                    <div v-html="title.kind" class="mainhoon"
+                                        style="line-height: 1.1;margin:-2px 0px -2px 0px;">
+
+
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="mainja">
+                                        <div v-html="title.naikuz"></div>
+                                    </span>
+
+                                </td>
+                                <td style="text-align: right">
+                                    <span class="mainja">
+                                        <div v-html="title.goldz"></div>
+                                    </span>
+
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+
+                                    <div v-html="title.myengmong" class="mainganongi"></div>
+
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+
+                                    <div v-html="title.attvalue" class="mainganongi"></div>
+
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.value5" class="mainja"></div>
+                                    <div v-html="title.value6z" class="mainjarahoon"></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.linxuan"></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+                                    <div v-html="title.flavor" class="mainganongi" style="text-align: center"></div>
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var imgAll = [];
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            aasb: []
+        },
+        created() {
+            fetch('main2nd.json')
+                .then(response => response.json())
+                .then(json => {
+                    this.aasb = json
+                    for (var i = 0; i < json.length; i++) {
+                        //By西瓜:添加装备名称
+
+                        json[i].name = json[i]['name'] + '<br><span class=dnfset>更多神界更新情报尽在COLG</span>';
+                        json[i].iconname = json[i]['iconname'];
+                        json[i].equname = '<span style="vertical-align:top;" class="' + json[i]['rank'] + '">' + json[i]['name'] + '</span>';
+
+
+                        if (json[i].naiku != '') {
+                            json[i].naikuz = '耐久度 ' + json[i]['naiku'];
+                        } else {
+                            json[i].naikuz = ' ';
+                        }
+
+
+                        json[i].goldz = json[i]['gold'] + '金币';
+                        json[i].chuurekz = json[i]['chuurek'] + 'kg';
+
+                        json[i].iconmark = '1/' + json[i]['rank'] + '.png';
+                        json[i].equrank = '<span class="' + json[i]['rank'] + '">' + json[i]['rank'] + '</span>';
+
+
+                        if (json[i].iconname != '') {
+                            json[i].icon = '2/' + json[i]['iconname'] + '.png';
+
+                        } else {
+                            json[i].icon = '2/' + json[i]['name'] + '.png';
+                        }
+
+                        if (json[i].trade != '无法交易') {
+                            json[i].trader = '<span class="namaste">' + json[i]['trade'] + '</span>';
+                        } else {
+                            json[i].trader = '<span class="dnfred">' + json[i]['trade'] + '</span>';
+                        }
+
+
+                        json[i].leveling = 'Lv' + json[i]['level'] + '以上可以使用';
+
+
+                        if (json[i].mukgung != '') {
+                            var mukgung1 = '物理攻击力 ' + json[i]['mukgung'] + '<br>';
+                        } else {
+                            var mukgung1 = '';
+                        }
+                        if (json[i].magung != '') {
+                            var magung1 = '魔法攻击力 ' + json[i]['magung'] + '<br>';
+                        } else {
+                            var magung1 = '';
+                        }
+                        if (json[i].doglag != '') {
+                            var doglag1 = '独立攻击力 ' + json[i]['doglag'] + '<br>';
+                        } else {
+                            var doglag1 = '';
+                        }
+                        if (json[i].mukfang != '') {
+                            var mukfang1 = '物理防御力 ' + json[i]['mukfang'] + '<br>';
+                        } else {
+                            var mukfang1 = '';
+                        }
+                        if (json[i].mafang != '') {
+                            var mafang1 = '魔法防御力 ' + json[i]['mafang'] + '<br>';
+                        } else {
+                            var mafang1 = '';
+                        }
+                        if (json[i].reklyang != '') {
+                            var reklyang1 = '力量 ' + json[i]['reklyang'] + '<br>';
+                        } else {
+                            var reklyang1 = '';
+                        }
+                        if (json[i].zirek != '') {
+                            var zirek1 = '智力 ' + json[i]['zirek'] + '<br>';
+                        } else {
+                            var zirek1 = '';
+                        }
+                        if (json[i].teairek != '') {
+                            var teairek1 = '体力 ' + json[i]['teairek'] + '<br>';
+                        } else {
+                            var teairek1 = '';
+                        }
+                        if (json[i].zyengsaen != '') {
+                            var zyengsaen1 = '精神 ' + json[i]['zyengsaen'] + '<br>';
+                        } else {
+                            var zyengsaen1 = '';
+                        }
+                        json[i].attvalue = mukgung1 + magung1 + doglag1 + mukfang1 + mafang1 + reklyang1 + zirek1 + teairek1 + zyengsaen1
+
+
+                        if (json[i].buffer != '') {
+                            json[i].value6z = json[i]['value6'] + '<br><img src="2/hyeng2.png"><br><span class="geeee">-辅助职业专属属性</span><br><br> <span class="mainjarahoon">' + json[i]['buffer'] + '</span>';
+                        } else {
+                            json[i].value6z = json[i]['value6'];
+                        }
+
+
+
+                        if (json[i].value4 != '') {
+                            json[i].myengmong = '<img src="2/meng.png">' + json[i]['value4'];
+                        }
+
+
+
+
+                        if (json[i].weapsy != '') {
+                            json[i].weapsy1 = '物理百分比技能：<br>' + json[i]['weapsy'] + '<br>';
+                        } else {
+                            json[i].weapsy1 = '';
+                        }
+                        if (json[i].weamga != '') {
+                            json[i].weamga1 = '魔法百分比技能：<br>' + json[i]['weamga'] + '<br>';
+                        } else {
+                            json[i].weamga1 = '';
+                        }
+                        if (json[i].value2 != '') {
+                            json[i].value22 = '<span class="dnfco">' + json[i]['value2'] + '</span><br>';
+                        }
+
+
+
+
+                        if (json[i].kaijo != '') {
+                            json[i].gaijo = '<img src=1/改造图标.png><span class="dnfco">' + json[i]['kaijo'] + '</span><br><br><img src="2/hyeng.png">&nbsp;<br>';
+                        }
+                        if (json[i].debuff != '') {
+                            json[i].dex = '<span class="dnfde">' + json[i]['debuff'] + '</span>';
+                        }
+
+                        if (json[i].myth1 != '') {
+                            json[i].mythya = '<span class="geeee"><神话专属属性></span><br>' + json[i]['myth1'] + '<img src="2/hyeng.png">&nbsp;';
+                        }
+
+
+
+
+                        if (json[i].tatakae1 != '') {
+                            if (json[i].linxuan1 != '') {
+
+
+                                var sb1 = Number(json[i]['shujuj1'])
+                                var sb2 = Number(json[i]['shujuj2'])
+                                var sb3 = Number(json[i]['shujuj3'])
+                                var sb4 = Number(json[i]['shujuj4'])
+                                var sb5 = sb1 + sb2 + sb3 + sb4
+                                var dsb1 = Number(json[i]['tatakae1'])
+                                var dsb2 = Number(json[i]['tatakae2'])
+                                var dsb3 = Number(json[i]['tatakae3'])
+                                var dsb4 = Number(json[i]['tatakae4'])
+                                var dsb5 = dsb1 + dsb2 + dsb3 + dsb4
+
+
+                                json[i].linxuan = '<span class="geeee"><成长属性></span> <span class="mainjarahoon">' +
+                                    '</span><br><span class="mainja">攻击强化 </span><span class="namaste">' + json[i]['shujuj1'] +
+                                    '</span><br>' + '<span class="mainja">增益量 </span><span class="namaste">'
+                                    + json[i]['tatakae1'] +
+                                    '<br><span class="mainja">属性等级 ' + json[i]['shujujlv1'] +
+                                    '</span><br><br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] +
+                                    '</span><img src="2/hyeng.png">&nbsp;';
+                            }
+
+                        } else {
+                            if (json[i].linxuan1 != '') {
+
+                                var sb1 = Number(json[i]['shujuj1'])
+                                var sb2 = Number(json[i]['shujuj2'])
+                                var sb3 = Number(json[i]['shujuj3'])
+                                var sb4 = Number(json[i]['shujuj4'])
+                                var sb5 = sb1 + sb2 + sb3 + sb4
+
+                                json[i].linxuan = '<span class="geeee"><成长属性></span> <span class="mainjarahoon">' +
+                                    '</span><br><span class="mainja">攻击强化 </span><span class="namaste">' + json[i]['shujuj1'] +
+                                    '</span>' +
+                                    '<br><span class="mainja">属性等级 ' + json[i]['shujujlv1'] +
+                                    '</span><br><br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] +
+                                    '</span><img src="2/hyeng.png">&nbsp;';
+
+                            }
+
+                        }
+
+
+
+
+                    }
+                })
+        }
+    });
+    //By西瓜:打包下载方法
+    downall = function () {
+        //FunLib.download_O([{ url: "http://imelon.coding.me/freya/Own/img/skills/%E6%9A%B4%E5%87%BB.png", name: "测试" }, { url: "http://imelon.coding.me/freya/Own/img/skills/%E6%9A%B4%E5%87%BB.png", name: "测试2" }])
+        var imgageData;
+        var elementALL = $("table[id *='t_']");
+        $.each(elementALL, function (i, element) {
+            var name = $(this).attr("name");
+            html2canvas(element, {
+                onrendered: function (canvas) {
+                    //$("#div_all").append(canvas);
+                    imgageData = canvas.toDataURL("");
+                    //var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+                    imgAll.push({
+                        url: imgageData,
+                        name: name
+                    });
+                    //$("#a_" + index).attr("download", "your_pic_name.png").attr("href", newData);
+                }
+            });
+        });
+        FunLib.download(imgAll);
+    }
+</script>
