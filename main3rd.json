@@ -1,0 +1,32 @@
+[
+    {
+        "name": "监视者 : 前进的意象",
+        "iconname": "前进的意象",
+        "rank": "史诗",
+        "kind": "项链",
+        "trade": "无法交易",
+        "level": "105",
+        "naiku": "",
+        "gold": "25,984",
+        "chuurek": "0.4",
+        "mukfang": "",
+        "mafang": "10635",
+        "reklyang": "",
+        "zirek": "",
+        "teairek": "",
+        "zyengsaen": "",
+        "value1": "",
+        "value4": "冒险家名望 1099",
+        "value5": "",
+        "value6": "",
+        "transable": "",
+        "buffer": "",
+        "shujuj1": "7815",
+        "tatakae1": "2180",
+        "linxuan1": "技能攻击力+3%<br><br>物理/魔法防御力 +14000<br>被击受到1%以上生命值的伤害时，物理/魔法防御力 -2800(冷却时间1秒/最大叠加5次)<br>- 1秒内没有受到伤害时，叠加数-1",
+        "shujuj2": "",
+        "tatakae2": "",
+        "linxuan2": "穿戴“监视者 : 选择的记忆”时，发动效果<br>- 攻击强化 +1450",
+        "flavor": ""
+    }
+]
