@@ -144,18 +144,6 @@
 
                             <tr>
                                 <td colspan="2" style="line-height: 1.1;">
-                                    <div v-html="title.value5" class="mainja"></div>
-                                    <div v-html="title.value6z" class="mainjarahoon"></div>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td colspan="2">
-                                    <img src="2/hyeng.png">&nbsp;
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" style="line-height: 1.1;">
                                     <div v-html="title.linxuan"></div>
                                 </td>
                             </tr>
@@ -271,7 +259,7 @@
                         } else {
                             var zyengsaen1 = '';
                         }
-                        json[i].attvalue = mukfang1 + mafang1
+                        json[i].attvalue = mukfang1 + mafang1 + reklyang1 + zirek1 + teairek1 + zyengsaen1
 
 
                         if (json[i].buffer != '') {
@@ -337,11 +325,11 @@
 
 
                                 json[i].linxuan = '<span class="geeee"><成长属性></span> <span class="mainjarahoon">' +
-                                    '<span class="mainhoon">1属性</span>' +
+                                    '<br><span class="mainhoon">1属性</span>' +
                                     '</span><br><span class="mainja">攻击强化 </span><span class="namaste">' + json[i]['shujuj1'] +
                                     '</span><br>' + '<span class="mainja">增益量 </span><span class="namaste">'
                                     + json[i]['tatakae1'] +
-                                    '</span><br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] + '<span class="mainhoon">2属性</span>' +
+                                    '</span><br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] + '<br><br><span class="mainhoon">2属性</span>' +
                                     json[i]['linxuan2'] +
                                     '</span><img src="2/hyeng.png">&nbsp;';
                             }
@@ -357,12 +345,12 @@
 
                                 json[i].linxuan = '<span class="geeee"><成长属性></span> <span class="mainjarahoon">' +
 
-                                    '<span class="mainhoon">1属性</span>' +
+                                    '<br><span class="mainhoon">1属性</span>' +
 
                                     '</span><br><span class="mainja">攻击强化 </span><span class="namaste">' + json[i]['shujuj1'] +
                                     '</span>' +
 
-                                    '<br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] + '<span class="mainhoon">1属性</span>' + json[i]['linxuan2'] +
+                                    '<br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] + '<br><br><span class="mainhoon">2属性</span>' + json[i]['linxuan2'] +
                                     '</span><img src="2/hyeng.png">&nbsp;';
 
                             }
