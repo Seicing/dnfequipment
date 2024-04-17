@@ -126,6 +126,21 @@
                                 </td>
                             </tr>
 
+                            <tr>
+                                <td colspan="2" style="line-height: 1.1;">
+
+                                    <div v-html="title.attvalue" class="mainganongi"></div>
+
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="2">
+                                    <img src="2/hyeng.png">&nbsp;
+                                </td>
+                            </tr>
+
 
                             <tr>
                                 <td colspan="2" style="line-height: 1.1;">
@@ -309,11 +324,10 @@
                                 var dsb5 = dsb1 + dsb2 + dsb3 + dsb4
 
 
-                                json[i].linxuan = '<span class="mainhoon"><融合属性></span>' +
-                                    json[i]['ayazimi'] +
-                                    '<br><br>' +
+                                json[i].linxuan = '<span class="geeee"><成长属性></span> <span class="mainjarahoon">' +
+                                    '<br><span class="mainhoon">1属性</span><br>' +
 
-                                    '<span class="mainjarahoon"><span class="mainja">增益量 </span><span class="namaste">'
+                                    '<span class="mainja">增益量 </span><span class="namaste">'
                                     + json[i]['tatakae1'] +
                                     '</span><br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] +
                                     '</span><img src="2/hyeng.png">&nbsp;';
@@ -328,11 +342,11 @@
                                 var sb4 = Number(json[i]['shujuj4'])
                                 var sb5 = sb1 + sb2 + sb3 + sb4
 
-                                json[i].linxuan = '<span class="mainhoon"><融合属性></span> ' +
-                                    json[i]['ayazimi'] +
-                                    '<br> <br>' +
+                                json[i].linxuan = '<span class="geeee"><成长属性></span> <span class="mainjarahoon">' +
 
-                                    '<span class="mainjarahoon"><br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] +
+                                    '<br><span class="mainhoon">1属性</span><br>' +
+
+                                    '<br>' + '<span class="mainjarahoon">' + json[i]['linxuan1'] +
                                     '</span><img src="2/hyeng.png">&nbsp;';
 
                             }
