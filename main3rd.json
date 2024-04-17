@@ -975,7 +975,7 @@
         "buffer": "",
         "shujuj1": "0",
         "tatakae1": "3000",
-        "linxuan1": "技能伤害 +8%<br><br><span class='gradne'>[千钧一发]</span><br>技能命中时，有1%概率增加技能攻击力1000%",
+        "linxuan1": "技能伤害 +8%<br><br><span class='gradne'>[千钧一发]</span><br>施放技能时，有0.1%概率此技能攻击力 +1000%",
         "flavor": "",
         "ayazimi": ""
     },
