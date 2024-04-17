@@ -26,6 +26,14 @@ table {
     -webkit-text-fill-color: transparent;
 }
 
+.太初 {
+    font-family: 宋体;
+    background-image: -webkit-linear-gradient(bottom, #F8C63D, #CC66E7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .dnfep {
     color: #FFB11B
 }
@@ -143,5 +151,9 @@ table {
 }
 
 .geeee {
+    color: #4AA256
+}
+
+.gradne {
     color: #4AA256
 }
